@@ -113,12 +113,15 @@ Para apagar um branch remoto através do push;
 ~~~bash
 git push --delete <remote> <nomeBranch>
 ~~~
+
+### Adicionar e commit de uma unica vez
  Para adicionar arquivos e commitar de uma unica vez.
 
  ~~~bash
  git commit -a -m "docs: documento apagar branchs"
  ~~~
 
+### Adicionando tags e enviar ao remoto
  Para adicionar uma teg de versões:
  ~~~bash
  git tag <nomeVersão: Ex v1.0.1> <codeCommit: Commit que deseja referenciar>
