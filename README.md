@@ -90,3 +90,27 @@ git push --tags
 ~~~
 
 TODO: apagar tags
+
+### Cherry-pick 
+
+~~~~bash
+git cherry-pick <hashCommit>
+
+~~~~
+
+o cherry-pick seleciona um commit e o adiciona ao final da arvore de ancestrais do ramo atual.
+
+### Apagar um branch
+
+Para apagar um branch local:
+
+~~~~bash
+git branch -D <nomeBranch>
+~~~~
+
+Para apagar um branch remoto através do push;
+
+~~~bash
+git push --delete <remote> <nomeBranch>
+~~~
+
